@@ -1,6 +1,6 @@
 :root{
     --blanco:#ffffff;
-    --ocuro:#212121;
+    --oscuro:#212121;
     --primario:#ffc107;
     --secundario: #0097a7;
     --gris: #757575;
@@ -73,7 +73,13 @@ body{
 
 .navegacion-principal a:hover{
     background-color: var(--primario);
-    color: var(--ocuro);
+    color: var(--oscuro);
 }
+.hero{ /*para salir de una carpeta utilizamos ..*/
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*cover cubre la imagen con todo el tamaño posible*/
+}
+
 
 
